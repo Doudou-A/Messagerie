@@ -10,5 +10,5 @@ import '../styles/app.css';
 
 // start the Stimulus application
 import '../bootstrap';
-import './Register';
+import './App';
 // import './NameDispo';

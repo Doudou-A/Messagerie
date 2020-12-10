@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../GoogleAPIReact/.idea/GoogleAPIReact.iml" filepath="$PROJECT_DIR$/../GoogleAPIReact/.idea/GoogleAPIReact.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Messagerie.iml" filepath="$PROJECT_DIR$/.idea/Messagerie.iml" />
     </modules>
   </component>

@@ -59,7 +59,8 @@ export default class NameDispo extends React.Component {
         // } else {
             return (
                 <p>
-                    {this.props.text}
+                    text
+                    {/*{this.props.text}*/}
                     {/*{cities.map(city => (*/}
                     {/*    <div key={city.villeId}>*/}
                     {/*        <button value={city.villeId} onClick={this.handleClick} className={"city"}>*/}

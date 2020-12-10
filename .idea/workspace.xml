@@ -2,32 +2,47 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7424269b-ac00-4d4c-9d2d-18904444ba89" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/controllers/NameDispo.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/controllers/Register.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/controllers/App.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/controllers/NoMatch.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GoogleAPIReact/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GoogleAPIReact/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Messagerie.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Messagerie.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/controllers/NameDispo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/assets/controllers/NameDispo.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/controllers/Register.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/assets/controllers/Register.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/controllers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/controllers/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/MessageController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/MessageController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/RegistrationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/RegistrationController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Form/RegistrationFormType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/RegistrationFormType.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/User.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/registration/register.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/registration/register.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsbtTreeLayoutManager">
+    <layout place="tools.popupGrunt">
+      <scroll-view-position x="0" y="0" />
+    </layout>
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -136,7 +151,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1lFgnkSFlQ3iFd7dmkBwtBoGdAA" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -158,14 +173,15 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/assets/controllers" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/assets" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/templates" />
+      <recent name="$PROJECT_DIR$/assets/controllers" />
+    </key>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="3" Folder0="$PROJECT_DIR$/assets/controllers" Folder1="$PROJECT_DIR$/assets/controllers" Folder2="$PROJECT_DIR$/assets/controllers" CustomDictionaries="3" CustomDictionary0="$PROJECT_DIR$/assets/controllers/app.js" CustomDictionary1="$PROJECT_DIR$/assets/controllers/NameDispo.jsx" CustomDictionary2="$PROJECT_DIR$/assets/controllers/Register.jsx" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="4" Folder0="$PROJECT_DIR$/assets/controllers" Folder1="$PROJECT_DIR$/assets/controllers" Folder2="$PROJECT_DIR$/assets/controllers" Folder3="$PROJECT_DIR$/templates" CustomDictionaries="4" CustomDictionary0="$PROJECT_DIR$/assets/controllers/app.js" CustomDictionary1="$PROJECT_DIR$/assets/controllers/NameDispo.jsx" CustomDictionary2="$PROJECT_DIR$/assets/controllers/Register.jsx" CustomDictionary3="$PROJECT_DIR$/templates/index.html.twig" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="7424269b-ac00-4d4c-9d2d-18904444ba89" name="Default Changelist" comment="" />
@@ -174,6 +190,20 @@
       <option name="presentableId" value="Default" />
       <updated>1607198423682</updated>
       <workItem from="1607198425212" duration="12132000" />
+      <workItem from="1607325079876" duration="157000" />
+      <workItem from="1607329490013" duration="817000" />
+      <workItem from="1607334774631" duration="18000" />
+      <workItem from="1607345604397" duration="6000" />
+      <workItem from="1607351077381" duration="2704000" />
+      <workItem from="1607411184100" duration="1162000" />
+      <workItem from="1607412452981" duration="186000" />
+      <workItem from="1607412654751" duration="1772000" />
+      <workItem from="1607454232240" duration="968000" />
+      <workItem from="1607499137055" duration="1170000" />
+      <workItem from="1607505477795" duration="1771000" />
+      <workItem from="1607539991881" duration="648000" />
+      <workItem from="1607541004942" duration="11000" />
+      <workItem from="1607541018675" duration="8546000" />
     </task>
     <servers />
   </component>
@@ -185,9 +215,18 @@
       <screen x="0" y="25" width="1440" height="807" />
     </state>
     <state x="229" y="64" key="SettingsEditor/0.25.1440.807@0.25.1440.807" timestamp="1607200062059" />
-    <state x="421" y="183" width="597" height="490" key="find.popup" timestamp="1607200892503">
+    <state x="421" y="183" width="597" height="490" key="find.popup" timestamp="1607543227123">
       <screen x="0" y="25" width="1440" height="806" />
     </state>
-    <state x="421" y="183" width="597" height="490" key="find.popup/0.25.1440.806@0.25.1440.806" timestamp="1607200892503" />
+    <state x="2001" y="142" width="796" height="642" key="find.popup/0.25.1440.806/1440.-65.1920.1055@1440.-65.1920.1055" timestamp="1607499707085" />
+    <state x="421" y="183" width="597" height="490" key="find.popup/0.25.1440.806@0.25.1440.806" timestamp="1607543227123" />
+    <state x="595" y="289" width="250" height="278" key="jetbrains.javascript.buildTools.run-task-popup" timestamp="1607542242121">
+      <screen x="0" y="25" width="1440" height="806" />
+    </state>
+    <state x="595" y="289" width="250" height="278" key="jetbrains.javascript.buildTools.run-task-popup/0.25.1440.806@0.25.1440.806" timestamp="1607542242121" />
+    <state x="385" y="155" width="670" height="676" key="search.everywhere.popup" timestamp="1607549892086">
+      <screen x="0" y="25" width="1440" height="806" />
+    </state>
+    <state x="385" y="155" width="670" height="676" key="search.everywhere.popup/0.25.1440.806@0.25.1440.806" timestamp="1607549892086" />
   </component>
 </project>
