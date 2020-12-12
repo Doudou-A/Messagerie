@@ -23,6 +23,7 @@ class RegistrationController extends AbstractController
         $user = new User();
         $data = $request->query->get('username');
 
+
         $user->setUsername($data);
         $user->setRoles(["ROLE_USER"]);
         $user->setPassword(

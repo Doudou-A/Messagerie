@@ -2,23 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7424269b-ac00-4d4c-9d2d-18904444ba89" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/controllers/App.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/controllers/NoMatch.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/controllers/RegisterStyle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/controllers/myMaterial.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../GoogleAPIReact/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GoogleAPIReact/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Messagerie.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Messagerie.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/controllers/NameDispo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/assets/controllers/NameDispo.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/controllers/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/assets/controllers/App.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/controllers/Register.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/assets/controllers/Register.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/controllers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/controllers/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/app.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/MessageController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/MessageController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/RegistrationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/RegistrationController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/User.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,6 +145,7 @@
       <path value="$PROJECT_DIR$/vendor/psr/container" />
       <path value="$PROJECT_DIR$/vendor/doctrine/dbal" />
       <path value="$PROJECT_DIR$/vendor/symfony/webpack-encore-bundle" />
+      <path value="$PROJECT_DIR$/vendor/bin/.phpunit" />
     </include_path>
   </component>
   <component name="ProjectId" id="1lFgnkSFlQ3iFd7dmkBwtBoGdAA" />
@@ -181,7 +179,7 @@
       <recent name="$PROJECT_DIR$/assets/controllers" />
     </key>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="4" Folder0="$PROJECT_DIR$/assets/controllers" Folder1="$PROJECT_DIR$/assets/controllers" Folder2="$PROJECT_DIR$/assets/controllers" Folder3="$PROJECT_DIR$/templates" CustomDictionaries="4" CustomDictionary0="$PROJECT_DIR$/assets/controllers/app.js" CustomDictionary1="$PROJECT_DIR$/assets/controllers/NameDispo.jsx" CustomDictionary2="$PROJECT_DIR$/assets/controllers/Register.jsx" CustomDictionary3="$PROJECT_DIR$/templates/index.html.twig" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="36" Folder0="$PROJECT_DIR$/assets/controllers" Folder1="$PROJECT_DIR$/assets/controllers" Folder2="$PROJECT_DIR$/assets/controllers" Folder3="$PROJECT_DIR$/templates" Folder4="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey" Folder5="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero" Folder6="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero" Folder7="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero" Folder8="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero" Folder9="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero" Folder10="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero" Folder11="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero" Folder12="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero" Folder13="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero" Folder14="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero" Folder15="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero" Folder16="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero" Folder17="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero" Folder18="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero" Folder19="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero" Folder20="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero" Folder21="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero" Folder22="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero" Folder23="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero" Folder24="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero" Folder25="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero" Folder26="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero" Folder27="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero" Folder28="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero" Folder29="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero" Folder30="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero" Folder31="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero" Folder32="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero" Folder33="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero" Folder34="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero" Folder35="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero" CustomDictionaries="36" CustomDictionary0="$PROJECT_DIR$/assets/controllers/app.js" CustomDictionary1="$PROJECT_DIR$/assets/controllers/NameDispo.jsx" CustomDictionary2="$PROJECT_DIR$/assets/controllers/Register.jsx" CustomDictionary3="$PROJECT_DIR$/templates/index.html.twig" CustomDictionary4="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/15-1-mois.svg" CustomDictionary5="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero/2.svg" CustomDictionary6="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero/25.svg" CustomDictionary7="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero/22.svg" CustomDictionary8="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero/21.svg" CustomDictionary9="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero/28.svg" CustomDictionary10="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero/29.svg" CustomDictionary11="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero/24.svg" CustomDictionary12="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero/27.svg" CustomDictionary13="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero/26.svg" CustomDictionary14="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero/23.svg" CustomDictionary15="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero/20.svg" CustomDictionary16="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero/15.svg" CustomDictionary17="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero/16.svg" CustomDictionary18="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero/7.svg" CustomDictionary19="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero/6.svg" CustomDictionary20="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero/13.svg" CustomDictionary21="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero/32.svg" CustomDictionary22="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero/31.svg" CustomDictionary23="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero/30.svg" CustomDictionary24="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero/3.svg" CustomDictionary25="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero/17.svg" CustomDictionary26="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero/12.svg" CustomDictionary27="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero/8.svg" CustomDictionary28="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero/9.svg" CustomDictionary29="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero/11.svg" CustomDictionary30="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero/14.svg" CustomDictionary31="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero/4.svg" CustomDictionary32="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero/10.svg" CustomDictionary33="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero/19.svg" CustomDictionary34="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero/18.svg" CustomDictionary35="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero/5.svg" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="7424269b-ac00-4d4c-9d2d-18904444ba89" name="Default Changelist" comment="" />
@@ -204,6 +202,9 @@
       <workItem from="1607539991881" duration="648000" />
       <workItem from="1607541004942" duration="11000" />
       <workItem from="1607541018675" duration="8546000" />
+      <workItem from="1607583195341" duration="3508000" />
+      <workItem from="1607588525080" duration="1823000" />
+      <workItem from="1607593583640" duration="15978000" />
     </task>
     <servers />
   </component>
@@ -215,9 +216,14 @@
       <screen x="0" y="25" width="1440" height="807" />
     </state>
     <state x="229" y="64" key="SettingsEditor/0.25.1440.807@0.25.1440.807" timestamp="1607200062059" />
-    <state x="421" y="183" width="597" height="490" key="find.popup" timestamp="1607543227123">
-      <screen x="0" y="25" width="1440" height="806" />
+    <state x="2000" y="199" key="Vcs.Push.Dialog.v2" timestamp="1607588969260">
+      <screen x="1440" y="-65" width="1920" height="1055" />
     </state>
+    <state x="2000" y="199" key="Vcs.Push.Dialog.v2/0.25.1440.806/1440.-65.1920.1055@1440.-65.1920.1055" timestamp="1607588969260" />
+    <state x="421" y="176" width="597" height="548" key="find.popup" timestamp="1607630918651">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="421" y="176" width="597" height="548" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1607630918651" />
     <state x="2001" y="142" width="796" height="642" key="find.popup/0.25.1440.806/1440.-65.1920.1055@1440.-65.1920.1055" timestamp="1607499707085" />
     <state x="421" y="183" width="597" height="490" key="find.popup/0.25.1440.806@0.25.1440.806" timestamp="1607543227123" />
     <state x="595" y="289" width="250" height="278" key="jetbrains.javascript.buildTools.run-task-popup" timestamp="1607542242121">

@@ -19,6 +19,8 @@
     },
     "dependencies": {
         "@babel/core": "^7.12.9",
+        "@callstack/react-theme-provider": "^2.1.0",
+        "@material-ui/core": "^4.11.2",
         "jquery": "^3.5.1",
         "min-jquery": "^1.7.0",
         "react-router-dom": "^5.2.0"
