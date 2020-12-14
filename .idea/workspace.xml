@@ -2,20 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7424269b-ac00-4d4c-9d2d-18904444ba89" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/controllers/RegisterStyle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/controllers/myMaterial.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../GoogleAPIReact/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GoogleAPIReact/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Messagerie.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Messagerie.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/controllers/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/assets/controllers/App.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/controllers/Register.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/assets/controllers/Register.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/styles/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/controllers/RegisterStyle.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/controllers/RegisterStyle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/controllers/myMaterial.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/controllers/myMaterial.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/RegistrationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/RegistrationController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -204,7 +197,9 @@
       <workItem from="1607541018675" duration="8546000" />
       <workItem from="1607583195341" duration="3508000" />
       <workItem from="1607588525080" duration="1823000" />
-      <workItem from="1607593583640" duration="15978000" />
+      <workItem from="1607593583640" duration="16650000" />
+      <workItem from="1607782349953" duration="2741000" />
+      <workItem from="1607863639394" duration="8782000" />
     </task>
     <servers />
   </component>
@@ -216,10 +211,18 @@
       <screen x="0" y="25" width="1440" height="807" />
     </state>
     <state x="229" y="64" key="SettingsEditor/0.25.1440.807@0.25.1440.807" timestamp="1607200062059" />
+    <state width="500" height="445" key="SwitcherDM" timestamp="1607897359744">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="500" height="445" key="SwitcherDM/0.0.1440.900@0.0.1440.900" timestamp="1607897359744" />
     <state x="2000" y="199" key="Vcs.Push.Dialog.v2" timestamp="1607588969260">
       <screen x="1440" y="-65" width="1920" height="1055" />
     </state>
     <state x="2000" y="199" key="Vcs.Push.Dialog.v2/0.25.1440.806/1440.-65.1920.1055@1440.-65.1920.1055" timestamp="1607588969260" />
+    <state x="1540" y="35" width="1720" height="855" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1607864438863">
+      <screen x="1440" y="-65" width="1920" height="1055" />
+    </state>
+    <state x="1540" y="35" width="1720" height="855" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.25.1440.806/1440.-65.1920.1055@1440.-65.1920.1055" timestamp="1607864438863" />
     <state x="421" y="176" width="597" height="548" key="find.popup" timestamp="1607630918651">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

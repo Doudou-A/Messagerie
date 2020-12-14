@@ -1,72 +1,44 @@
-import React from "react";
+import React, {useState} from 'react';
 import $ from "min-jquery";
 import MyMaterial from "./myMaterial";
-import {withStyles} from "@material-ui/core/styles";
 import {Grid} from "@material-ui/core";
+import useStyles from "./RegisterStyle";
 
-const styles = theme => ({
-    exist: {
-        background: 'red',
-        border: 0,
-        borderRadius: 3,
-        boxShadow: '0 3px 5px 2px rgba(255, 105, 135, .3)',
-        color: 'white',
-        height: 48,
-        padding: '0 30px',
-    },
-    noExist: {
-        background: 'green',
-        border: 0,
-        borderRadius: 3,
-        boxShadow: '0 3px 5px 2px rgba(255, 105, 135, .3)',
-        color: 'white',
-        height: 48,
-        padding: '0 30px',
-    },
-    top: {
-        position: 'absolute',
-        top: '40%',
-        width: '100%'
-    }
-});
+export default function Register() {
+    const [value, setValue] = useState("");
+    const [search, setSearch] = useState(0);
+    const [classDispo, setClassDispo] = useState("");
+    const [iconDispo, setIconDispo] = useState("");
+    const [disabledButton, setDisabledButton] = useState(false);
+    const classes = useStyles();
 
-class Register extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            value: '',
-            search: '',
-            dispo: '',
-            fetch: null,
-        };
-        this.handleChange = this.handleChange.bind(this);
-        this.handleSubmit = this.handleSubmit.bind(this);
-    }
-
-    handleChange(event) {
-        this.setState({value: event.target.value});
-        const {classes} = this.props;
-        var self = this;
+    const handleChange = (event) => {
+        setValue(event.target.value);
         $.ajax({
             type: 'POST',
             url: '/get-pseudo/' + event.target.value,
             success: function (data) {
-                (data == 'true' ? self.setState({dispo: classes.exist}) : self.setState({dispo: classes.noExist}));
+                (data == 'true' ?
+                    (setClassDispo(classes.exist),
+                        setIconDispo(<MyMaterial.BlockRoudedIcon/>),
+                        setDisabledButton(true))
+                    : (setClassDispo(classes.noExist),
+                        setIconDispo(<MyMaterial.VerifiedUserRoundedIcon/>),
+                        setDisabledButton(false)));
             },
             error: function (XMLHttpRequest, textStatus, errorThrown) {
                 alert('Error : ' + errorThrown);
             }
         });
-        this.setState({search: event.target.value});
+        setSearch(event.target.value);
     }
 
-    handleSubmit(event) {
-        event.preventDefault();
+    const handleSubmit = (event) => {
         $.ajax({
             type: 'POST',
             url: '/register',
             data: {
-                "username": this.state.value
+                "username": value
             },
             success: function (data) {
 
@@ -78,34 +50,45 @@ class Register extends React.Component {
         window.location.href = "modus-create";
     }
 
-    render() {
-        const {classes} = this.props;
-        return (
-            <div>
-                <form onSubmit={this.handleSubmit} className={classes.top}>
-                    <Grid container direction="row" justify="center" alignItems="center" spacing={1}>
-                        <Grid item xs={6}>
-                            <MyMaterial.TextField value={this.state.value} onChange={this.handleChange}
-                                                  variant="filled"
-                                                  label="Choisir un Pseudo" fullWidth={true}/>
-                        </Grid>
-                        <Grid item xs={6}>
-                            {/*<Button variant="contained" color="secondary" type="submit" label="Envoyer"/>*/}
-                            <MyMaterial.Button type="submit" variant="contained"
-                                               color="primary" fullWidth={true}> Envoyer </MyMaterial.Button>
-                        </Grid>
-                        <Grid item xs={3}>
-                            <div style={{display: this.state.search ? "block" : "none"}}
-                                 className={this.state.dispo}
-                                 label="dispo" variant="outlined">{this.state.search}</div>
-                        </Grid>
-                    </Grid>
-                </form>
-                {/*<div id="test">{this.state.search}</div>*/
-                }
-            </div>
-        );
-    }
-}
 
-export default withStyles(styles, {withTheme: true})(Register);
+    return (
+        <form onSubmit={handleSubmit} className={classes.top}>
+            <Grid container direction="row" justify="center" alignItems="center" spacing={1}>
+                <Grid item xs={3}>
+                    <MyMaterial.TextField value={value} onChange={handleChange}
+                                          variant="filled"
+                                          label="Choisir un Pseudo" fullWidth={true}/>
+                </Grid>
+                <Grid item xs={1}>
+                    <MyMaterial.IconButton color="primary" type="submit" component="span" disabled={disabledButton}>
+                        <MyMaterial.DoubleArrowRoundedIcon/>
+                    </MyMaterial.IconButton>
+                </Grid>
+            </Grid>
+            <Grid container direction="row" justify="center" alignItems="center">
+                <Grid item style={{display: search ? "block" : "none"}}>
+                    <div
+                        className={classDispo}>
+                        {search}
+                        <MyMaterial.IconButton className={classes.white} type="submit"
+                                               component="span">
+                            {iconDispo}
+                        </MyMaterial.IconButton>
+                    </div>
+                </Grid>
+                <Grid item xs={1}></Grid>
+            </Grid>
+            {/*<Grid container direction="row" justify="center" alignItems="center">*/}
+            {/*    <Grid item>*/}
+            {/*        /!*<Grid container direction="row">*!/*/}
+            {/*        <div style={{display: search ? "block" : "none"}} className={classTextDispo}*/}
+            {/*             variant="outlined">{textDispo}</div>*/}
+            {/*        /!*</Grid>*!/*/}
+            {/*    </Grid>*/}
+            {/*    <Grid item xs={1}>*/}
+            {/*        */}
+            {/*    </Grid>*/}
+            {/*</Grid>*/}
+        </form>
+    );
+}
