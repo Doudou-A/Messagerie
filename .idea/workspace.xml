@@ -4,11 +4,24 @@
     <list default="true" id="7424269b-ac00-4d4c-9d2d-18904444ba89" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../GoogleAPIReact/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GoogleAPIReact/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/controllers/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/assets/controllers/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/controllers/NameDispo.jsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/controllers/Register.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/assets/controllers/Register.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/controllers/RegisterStyle.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/controllers/RegisterStyle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/controllers/myMaterial.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/controllers/myMaterial.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/controllers/RegisterStyle.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/RegisterStyle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/controllers/hello_controller.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/controllers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/controllers/myMaterial.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/materialUI/myMaterial.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/get_pseudo/index.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/message/_delete_form.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/message/_form.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/message/edit.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/message/index.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/message/new.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/message/show.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/registration/register.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/security/login.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +40,9 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_COMMON_BRANCH" value="master" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="JsbtTreeLayoutManager">
     <layout place="tools.popupGrunt">
@@ -168,11 +183,14 @@
       <recent name="$PROJECT_DIR$/assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/templates" />
-      <recent name="$PROJECT_DIR$/assets/controllers" />
+      <recent name="$PROJECT_DIR$/assets" />
+      <recent name="$PROJECT_DIR$/assets/materialUI" />
+      <recent name="$PROJECT_DIR$/assets/styles" />
+      <recent name="$PROJECT_DIR$/assets/font/consolas" />
+      <recent name="$PROJECT_DIR$/assets/font" />
     </key>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="36" Folder0="$PROJECT_DIR$/assets/controllers" Folder1="$PROJECT_DIR$/assets/controllers" Folder2="$PROJECT_DIR$/assets/controllers" Folder3="$PROJECT_DIR$/templates" Folder4="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey" Folder5="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero" Folder6="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero" Folder7="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero" Folder8="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero" Folder9="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero" Folder10="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero" Folder11="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero" Folder12="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero" Folder13="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero" Folder14="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero" Folder15="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero" Folder16="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero" Folder17="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero" Folder18="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero" Folder19="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero" Folder20="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero" Folder21="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero" Folder22="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero" Folder23="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero" Folder24="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero" Folder25="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero" Folder26="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero" Folder27="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero" Folder28="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero" Folder29="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero" Folder30="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero" Folder31="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero" Folder32="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero" Folder33="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero" Folder34="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero" Folder35="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero" CustomDictionaries="36" CustomDictionary0="$PROJECT_DIR$/assets/controllers/app.js" CustomDictionary1="$PROJECT_DIR$/assets/controllers/NameDispo.jsx" CustomDictionary2="$PROJECT_DIR$/assets/controllers/Register.jsx" CustomDictionary3="$PROJECT_DIR$/templates/index.html.twig" CustomDictionary4="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/15-1-mois.svg" CustomDictionary5="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero/2.svg" CustomDictionary6="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero/25.svg" CustomDictionary7="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero/22.svg" CustomDictionary8="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero/21.svg" CustomDictionary9="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero/28.svg" CustomDictionary10="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero/29.svg" CustomDictionary11="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero/24.svg" CustomDictionary12="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero/27.svg" CustomDictionary13="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero/26.svg" CustomDictionary14="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero/23.svg" CustomDictionary15="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero/20.svg" CustomDictionary16="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero/15.svg" CustomDictionary17="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero/16.svg" CustomDictionary18="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero/7.svg" CustomDictionary19="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero/6.svg" CustomDictionary20="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero/13.svg" CustomDictionary21="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero/32.svg" CustomDictionary22="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero/31.svg" CustomDictionary23="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero/30.svg" CustomDictionary24="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero/3.svg" CustomDictionary25="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero/17.svg" CustomDictionary26="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero/12.svg" CustomDictionary27="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero/8.svg" CustomDictionary28="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero/9.svg" CustomDictionary29="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero/11.svg" CustomDictionary30="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero/14.svg" CustomDictionary31="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero/4.svg" CustomDictionary32="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero/10.svg" CustomDictionary33="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero/19.svg" CustomDictionary34="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero/18.svg" CustomDictionary35="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero/5.svg" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="38" Folder0="$PROJECT_DIR$/assets/controllers" Folder1="$PROJECT_DIR$/assets/controllers" Folder2="$PROJECT_DIR$/templates" Folder3="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey" Folder4="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero" Folder5="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero" Folder6="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero" Folder7="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero" Folder8="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero" Folder9="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero" Folder10="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero" Folder11="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero" Folder12="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero" Folder13="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero" Folder14="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero" Folder15="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero" Folder16="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero" Folder17="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero" Folder18="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero" Folder19="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero" Folder20="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero" Folder21="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero" Folder22="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero" Folder23="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero" Folder24="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero" Folder25="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero" Folder26="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero" Folder27="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero" Folder28="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero" Folder29="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero" Folder30="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero" Folder31="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero" Folder32="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero" Folder33="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero" Folder34="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero" Folder35="$PROJECT_DIR$/assets/styles" Folder36="$PROJECT_DIR$/assets/materialUI" Folder37="$PROJECT_DIR$/assets" CustomDictionaries="38" CustomDictionary0="$PROJECT_DIR$/assets/controllers/app.js" CustomDictionary1="$PROJECT_DIR$/assets/controllers/Register.jsx" CustomDictionary2="$PROJECT_DIR$/templates/index.html.twig" CustomDictionary3="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/15-1-mois.svg" CustomDictionary4="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero/2.svg" CustomDictionary5="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero/25.svg" CustomDictionary6="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero/22.svg" CustomDictionary7="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero/21.svg" CustomDictionary8="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero/28.svg" CustomDictionary9="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero/29.svg" CustomDictionary10="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero/24.svg" CustomDictionary11="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero/27.svg" CustomDictionary12="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero/26.svg" CustomDictionary13="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero/23.svg" CustomDictionary14="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero/20.svg" CustomDictionary15="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero/15.svg" CustomDictionary16="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero/16.svg" CustomDictionary17="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero/7.svg" CustomDictionary18="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero/6.svg" CustomDictionary19="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero/13.svg" CustomDictionary20="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero/32.svg" CustomDictionary21="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero/31.svg" CustomDictionary22="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero/30.svg" CustomDictionary23="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero/3.svg" CustomDictionary24="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero/17.svg" CustomDictionary25="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero/12.svg" CustomDictionary26="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero/8.svg" CustomDictionary27="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero/9.svg" CustomDictionary28="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero/11.svg" CustomDictionary29="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero/14.svg" CustomDictionary30="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero/4.svg" CustomDictionary31="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero/10.svg" CustomDictionary32="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero/19.svg" CustomDictionary33="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero/18.svg" CustomDictionary34="$PROJECT_DIR$/../Gaea21/SLP/web/images/survey/menuNumero/5.svg" CustomDictionary35="$PROJECT_DIR$/assets/styles/RegisterStyle.js" CustomDictionary36="$PROJECT_DIR$/assets/materialUI/myMaterial.js" CustomDictionary37="$PROJECT_DIR$/assets/index.js" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="7424269b-ac00-4d4c-9d2d-18904444ba89" name="Default Changelist" comment="" />
@@ -200,6 +218,10 @@
       <workItem from="1607593583640" duration="16650000" />
       <workItem from="1607782349953" duration="2741000" />
       <workItem from="1607863639394" duration="8782000" />
+      <workItem from="1607928190297" duration="79000" />
+      <workItem from="1607935187464" duration="5483000" />
+      <workItem from="1608214733342" duration="3137000" />
+      <workItem from="1608273987709" duration="849000" />
     </task>
     <servers />
   </component>
@@ -207,6 +229,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="2126" y="268" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1608215921954">
+      <screen x="1440" y="-65" width="1920" height="1055" />
+    </state>
+    <state x="2126" y="268" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1440.806/1440.-65.1920.1055@1440.-65.1920.1055" timestamp="1608215921954" />
     <state x="229" y="64" key="SettingsEditor" timestamp="1607200062059">
       <screen x="0" y="25" width="1440" height="807" />
     </state>
@@ -219,23 +245,24 @@
       <screen x="1440" y="-65" width="1920" height="1055" />
     </state>
     <state x="2000" y="199" key="Vcs.Push.Dialog.v2/0.25.1440.806/1440.-65.1920.1055@1440.-65.1920.1055" timestamp="1607588969260" />
-    <state x="1540" y="35" width="1720" height="855" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1607864438863">
+    <state x="1540" y="35" width="1720" height="855" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1607938067347">
       <screen x="1440" y="-65" width="1920" height="1055" />
     </state>
-    <state x="1540" y="35" width="1720" height="855" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.25.1440.806/1440.-65.1920.1055@1440.-65.1920.1055" timestamp="1607864438863" />
-    <state x="421" y="176" width="597" height="548" key="find.popup" timestamp="1607630918651">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="1540" y="35" width="1720" height="855" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.25.1440.806/1440.-65.1920.1055@1440.-65.1920.1055" timestamp="1607938067347" />
+    <state x="2001" y="142" width="873" height="642" key="find.popup" timestamp="1608216688114">
+      <screen x="1440" y="-65" width="1920" height="1055" />
     </state>
     <state x="421" y="176" width="597" height="548" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1607630918651" />
-    <state x="2001" y="142" width="796" height="642" key="find.popup/0.25.1440.806/1440.-65.1920.1055@1440.-65.1920.1055" timestamp="1607499707085" />
+    <state x="2001" y="142" width="873" height="642" key="find.popup/0.25.1440.806/1440.-65.1920.1055@1440.-65.1920.1055" timestamp="1608216688114" />
     <state x="421" y="183" width="597" height="490" key="find.popup/0.25.1440.806@0.25.1440.806" timestamp="1607543227123" />
     <state x="595" y="289" width="250" height="278" key="jetbrains.javascript.buildTools.run-task-popup" timestamp="1607542242121">
       <screen x="0" y="25" width="1440" height="806" />
     </state>
     <state x="595" y="289" width="250" height="278" key="jetbrains.javascript.buildTools.run-task-popup/0.25.1440.806@0.25.1440.806" timestamp="1607542242121" />
-    <state x="385" y="155" width="670" height="676" key="search.everywhere.popup" timestamp="1607549892086">
-      <screen x="0" y="25" width="1440" height="806" />
+    <state x="1953" y="105" width="894" height="885" key="search.everywhere.popup" timestamp="1608216676498">
+      <screen x="1440" y="-65" width="1920" height="1055" />
     </state>
+    <state x="1953" y="105" width="894" height="885" key="search.everywhere.popup/0.25.1440.806/1440.-65.1920.1055@1440.-65.1920.1055" timestamp="1608216676498" />
     <state x="385" y="155" width="670" height="676" key="search.everywhere.popup/0.25.1440.806@0.25.1440.806" timestamp="1607549892086" />
   </component>
 </project>
