@@ -1,8 +1,8 @@
 import React, {useState} from 'react';
 import $ from "min-jquery";
-import MyMaterial from "./myMaterial";
 import {Grid} from "@material-ui/core";
-import useStyles from "./RegisterStyle";
+import MyMaterial from "../materialUI/myMaterial";
+import useStyles from "../styles/RegisterStyle";
 
 export default function Register() {
     const [value, setValue] = useState("");
@@ -15,7 +15,7 @@ export default function Register() {
     const handleChange = (event) => {
         setValue(event.target.value);
         $.ajax({
-            type: 'POST',
+            type: 'GET',
             url: '/get-pseudo/' + event.target.value,
             success: function (data) {
                 (data == 'true' ?
@@ -34,6 +34,8 @@ export default function Register() {
     }
 
     const handleSubmit = (event) => {
+        event.preventDefault();
+        console.log("ok");
         $.ajax({
             type: 'POST',
             url: '/register',
@@ -41,13 +43,12 @@ export default function Register() {
                 "username": value
             },
             success: function (data) {
-
+                window.location.href = "modus-create";
             },
             error: function (XMLHttpRequest, textStatus, errorThrown) {
                 alert('Error : ' + errorThrown);
             }
         });
-        window.location.href = "modus-create";
     }
 
 
@@ -60,8 +61,8 @@ export default function Register() {
                                           label="Choisir un Pseudo" fullWidth={true}/>
                 </Grid>
                 <Grid item xs={1}>
-                    <MyMaterial.IconButton color="primary" type="submit" component="span" disabled={disabledButton}>
-                        <MyMaterial.DoubleArrowRoundedIcon/>
+                    <MyMaterial.IconButton color="primary" type="submit" component="span" label="button" disabled={disabledButton}>
+                        <MyMaterial.DoubleArrowRoundedIcon />
                     </MyMaterial.IconButton>
                 </Grid>
             </Grid>

@@ -5,4 +5,5 @@ html, #root{
 body {
     background-color: lightgray;
     height: 100%;
+    font-family: monaco,"Ubuntu Mono",courier,monospace!important;
 }
