@@ -8,6 +8,7 @@ import {
     Redirect
 } from "react-router-dom";
 import Register from "./Register";
+import DiscussionList from "./DiscussionList";
 import NoMatch from "./NoMatch";
 
 class App extends React.Component {
@@ -18,6 +19,7 @@ class App extends React.Component {
                     <Switch>
                         <Redirect exact from="/" to ="/home" />
                         <Route exact path="/home"><Register/></Route>
+                        <Route exact path="/discussion-list"><DiscussionList/></Route>
                         <Route path="/*"><NoMatch/></Route>
                     </Switch>
                 </div>

@@ -36,6 +36,20 @@ class UserRepository extends ServiceEntityRepository implements PasswordUpgrader
         $this->_em->flush();
     }
 
+    public function findListUserDiscussion($id)
+    {
+        $query = $this->createQueryBuilder('a')
+            ->select('a')
+            ->leftJoin('a.discussions', 'd')
+            ->addSelect('d');
+
+        $query = $query->add('where', $query->expr()->in('d', ':d'))
+            ->setParameter('d', $id)
+            ->getQuery()
+            ->getResult(\Doctrine\ORM\Query::HYDRATE_ARRAY);
+
+        return $query;
+    }
     // /**
     //  * @return User[] Returns an array of User objects
     //  */

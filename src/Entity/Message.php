@@ -17,8 +17,25 @@ class Message
      */
     private $id;
 
+    /**
+     * @ORM\ManyToOne(targetEntity=Discussion::class, inversedBy="message")
+     */
+    private $discussion;
+
     public function getId(): ?int
     {
         return $this->id;
+    }
+
+    public function getDiscussion(): ?Discussion
+    {
+        return $this->discussion;
+    }
+
+    public function setDiscussion(?Discussion $discussion): self
+    {
+        $this->discussion = $discussion;
+
+        return $this;
     }
 }

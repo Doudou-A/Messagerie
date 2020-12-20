@@ -6,4 +6,10 @@ body {
     background-color: lightgray;
     height: 100%;
     font-family: monaco,"Ubuntu Mono",courier,monospace!important;
+    margin: 0px;
+}
+
+.makeStyles-username-3:hover{
+    border-bottom: 2px solid white;
+    cursor: pointer;
 }
