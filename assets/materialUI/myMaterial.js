@@ -1,4 +1,4 @@
-import { IconButton, Button, Card, TextField, Box } from '@material-ui/core';
+import { IconButton, Button, Card, TextField, Box, Grid } from '@material-ui/core';
 import DoubleArrowRoundedIcon from '@material-ui/icons/DoubleArrowRounded';
 import BlockRoudedIcon from '@material-ui/icons/BlockRounded';
 import VerifiedUserRoundedIcon from '@material-ui/icons/VerifiedUserRounded';
@@ -11,6 +11,6 @@ export default {
     Box,
     DoubleArrowRoundedIcon,
     BlockRoudedIcon,
-    VerifiedUserRoundedIcon
-
+    VerifiedUserRoundedIcon,
+    Grid
 }

@@ -35,15 +35,14 @@ export default function Register() {
 
     const handleSubmit = (event) => {
         event.preventDefault();
-        console.log("ok");
         $.ajax({
             type: 'POST',
             url: '/register',
             data: {
                 "username": value
             },
-            success: function (data) {
-                window.location.href = "modus-create";
+            success: function () {
+                window.location.href = "discussion-list";
             },
             error: function (XMLHttpRequest, textStatus, errorThrown) {
                 alert('Error : ' + errorThrown);
@@ -51,9 +50,8 @@ export default function Register() {
         });
     }
 
-
     return (
-        <form onSubmit={handleSubmit} className={classes.top}>
+        <form className={classes.top}>
             <Grid container direction="row" justify="center" alignItems="center" spacing={1}>
                 <Grid item xs={3}>
                     <MyMaterial.TextField value={value} onChange={handleChange}
@@ -61,7 +59,7 @@ export default function Register() {
                                           label="Choisir un Pseudo" fullWidth={true}/>
                 </Grid>
                 <Grid item xs={1}>
-                    <MyMaterial.IconButton color="primary" type="submit" component="span" label="button" disabled={disabledButton}>
+                    <MyMaterial.IconButton color="primary" onClick={handleSubmit} component="span" label="button" disabled={disabledButton}>
                         <MyMaterial.DoubleArrowRoundedIcon />
                     </MyMaterial.IconButton>
                 </Grid>
@@ -79,17 +77,6 @@ export default function Register() {
                 </Grid>
                 <Grid item xs={1}></Grid>
             </Grid>
-            {/*<Grid container direction="row" justify="center" alignItems="center">*/}
-            {/*    <Grid item>*/}
-            {/*        /!*<Grid container direction="row">*!/*/}
-            {/*        <div style={{display: search ? "block" : "none"}} className={classTextDispo}*/}
-            {/*             variant="outlined">{textDispo}</div>*/}
-            {/*        /!*</Grid>*!/*/}
-            {/*    </Grid>*/}
-            {/*    <Grid item xs={1}>*/}
-            {/*        */}
-            {/*    </Grid>*/}
-            {/*</Grid>*/}
         </form>
     );
 }

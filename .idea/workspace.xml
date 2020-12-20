@@ -2,26 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7424269b-ac00-4d4c-9d2d-18904444ba89" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/controllers/DiscussionList.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/controllers/Message.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/styles/DiscussionListStyle.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../GoogleAPIReact/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GoogleAPIReact/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GoogleAPIReact/assets/post.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../GoogleAPIReact/assets/post.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/controllers/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/assets/controllers/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/controllers/NameDispo.jsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/controllers/Register.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/assets/controllers/Register.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/controllers/RegisterStyle.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/RegisterStyle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/controllers/hello_controller.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/controllers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/controllers/myMaterial.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/materialUI/myMaterial.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/materialUI/myMaterial.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/materialUI/myMaterial.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/styles/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/get_pseudo/index.html.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/message/_delete_form.html.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/message/_form.html.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/message/edit.html.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/message/index.html.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/message/new.html.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/message/show.html.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/registration/register.html.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/security/login.html.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/RegistrationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/RegistrationController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/SecurityController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/SecurityController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Message.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Message.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/UserRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/UserRepository.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +39,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_COMMON_BRANCH" value="master" />
+    <option name="RECENT_COMMON_BRANCH" value="PseudoPageRegistration" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
@@ -221,7 +220,11 @@
       <workItem from="1607928190297" duration="79000" />
       <workItem from="1607935187464" duration="5483000" />
       <workItem from="1608214733342" duration="3137000" />
-      <workItem from="1608273987709" duration="849000" />
+      <workItem from="1608273987709" duration="1573000" />
+      <workItem from="1608299148075" duration="2207000" />
+      <workItem from="1608319437103" duration="146000" />
+      <workItem from="1608319760094" duration="19181000" />
+      <workItem from="1608463978058" duration="4301000" />
     </task>
     <servers />
   </component>
@@ -245,9 +248,10 @@
       <screen x="1440" y="-65" width="1920" height="1055" />
     </state>
     <state x="2000" y="199" key="Vcs.Push.Dialog.v2/0.25.1440.806/1440.-65.1920.1055@1440.-65.1920.1055" timestamp="1607588969260" />
-    <state x="1540" y="35" width="1720" height="855" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1607938067347">
+    <state x="1540" y="35" width="1720" height="855" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1608319236049">
       <screen x="1440" y="-65" width="1920" height="1055" />
     </state>
+    <state x="1540" y="35" width="1720" height="855" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.25.1440.802/1440.-65.1920.1055@1440.-65.1920.1055" timestamp="1608319236049" />
     <state x="1540" y="35" width="1720" height="855" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.25.1440.806/1440.-65.1920.1055@1440.-65.1920.1055" timestamp="1607938067347" />
     <state x="2001" y="142" width="873" height="642" key="find.popup" timestamp="1608216688114">
       <screen x="1440" y="-65" width="1920" height="1055" />
@@ -259,9 +263,10 @@
       <screen x="0" y="25" width="1440" height="806" />
     </state>
     <state x="595" y="289" width="250" height="278" key="jetbrains.javascript.buildTools.run-task-popup/0.25.1440.806@0.25.1440.806" timestamp="1607542242121" />
-    <state x="1953" y="105" width="894" height="885" key="search.everywhere.popup" timestamp="1608216676498">
-      <screen x="1440" y="-65" width="1920" height="1055" />
+    <state x="385" y="145" width="671" height="755" key="search.everywhere.popup" timestamp="1608449870117">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="385" y="145" width="671" height="755" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1608449870117" />
     <state x="1953" y="105" width="894" height="885" key="search.everywhere.popup/0.25.1440.806/1440.-65.1920.1055@1440.-65.1920.1055" timestamp="1608216676498" />
     <state x="385" y="155" width="670" height="676" key="search.everywhere.popup/0.25.1440.806@0.25.1440.806" timestamp="1607549892086" />
   </component>
