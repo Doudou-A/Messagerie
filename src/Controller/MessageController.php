@@ -4,8 +4,11 @@ namespace App\Controller;
 
 use App\Entity\Message;
 use App\Form\MessageType;
+use App\Repository\DiscussionRepository;
 use App\Repository\MessageRepository;
+use Doctrine\ORM\EntityManagerInterface;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
+use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
@@ -16,36 +19,35 @@ use Symfony\Component\Routing\Annotation\Route;
 class MessageController extends AbstractController
 {
     /**
-     * @Route("/message", name="message_index", methods={"GET"})
+     * @Route("/", name="message_index", methods={"GET"})
      */
-    public function index(MessageRepository $messageRepository): Response
+    public function index(Request $request, MessageRepository $repo): Response
     {
-        return $this->render('message/index.html.twig', [
-            'messages' => $messageRepository->findAll(),
-        ]);
+        $idDiscussion = $request->query->get("idDiscussion");
+        $aMessage = $repo->findMessage($idDiscussion);
+//        $discussion = $repo->find($idDiscussion);
+
+//        $aMessage = $discussion->getMessage();
+
+//        dd($aMessage->toArray());
+        return new JsonResponse($aMessage);
     }
 
     /**
-     * @Route("/new", name="message_new", methods={"GET","POST"})
+     * @Route("/create", name="message_new", methods={"POST"})
      */
-    public function new(Request $request): Response
+    public function create(Request $request, EntityManagerInterface $manager, DiscussionRepository $repo): JsonResponse
     {
+        $discussion = $repo->find($request->query->get("idDiscussion"));
+
         $message = new Message();
-        $form = $this->createForm(MessageType::class, $message);
-        $form->handleRequest($request);
+        $message->setText($request->query->get("message"));
+        $message->setDiscussion($discussion);
 
-        if ($form->isSubmitted() && $form->isValid()) {
-            $entityManager = $this->getDoctrine()->getManager();
-            $entityManager->persist($message);
-            $entityManager->flush();
+        $manager->persist($message);
+        $manager->flush();
 
-            return $this->redirectToRoute('message_index');
-        }
-
-        return $this->render('message/new.html.twig', [
-            'message' => $message,
-            'form' => $form->createView(),
-        ]);
+        return new JsonResponse('data');
     }
 
     /**

@@ -18,16 +18,16 @@ class DiscussionController extends AbstractController
      */
     public function index(DiscussionRepository $repoDiscussion, UserRepository $repoUser): JsonResponse
     {
-        $userId = $this->getUser()->getId();
+        $user = $this->getUser();
+        $discussions = $repoDiscussion->findDiscussionList($user->getId());
 
-        $discussions = $repoDiscussion->findDiscussion($userId);
-
-        $users = $repoUser->findListUserDiscussion($discussions[0]);
-
-        foreach ($users as $key => $user){
-            if($user['id'] == $userId) unset($users[$key]);
+        $listUser = [];
+        foreach ($discussions as $discussion) {
+            $aUser = $repoUser->findListUserDiscussion($discussion->getId());
+            foreach ($aUser as $userEntity) {
+                if($userEntity["username"] !== $user->getUsername()) $listUser[] = $userEntity;
+            }
         }
-
-        return new JsonResponse($users);
+        return new JsonResponse($listUser);
     }
 }

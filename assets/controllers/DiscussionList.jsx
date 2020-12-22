@@ -6,7 +6,7 @@ import $ from 'min-jquery';
 
 export default function DiscussionList() {
     const [discussionList, setDiscussionList] = useState();
-    const [username, setUsername] = useState('');
+    const [discussion, setDiscussion] = useState();
 
     const classes = useStyles();
 
@@ -15,6 +15,7 @@ export default function DiscussionList() {
             type: 'GET',
             url: '/discussion',
             success: function (data) {
+                console.log(JSON.parse(data));
                 setDiscussionList(JSON.parse(data));
             },
             error: function (XMLHttpRequest, textStatus, errorThrown) {
@@ -24,13 +25,13 @@ export default function DiscussionList() {
     }, []);
 
     const message = (event) => {
-        setUsername(event.discussion.username)
+        setDiscussion(event.discussion)
     }
 
     return (
         <MyMaterial.Grid container className={classes.height} spacing={1}>
             <MyMaterial.Grid container direction="column" justify="center" alignItems="center" className={classes.listDiscussion}
-                  item xs={3}>
+                  item xs={2}>
                 {
                     discussionList
                         ? (discussionList.map(discussion =>
@@ -42,9 +43,9 @@ export default function DiscussionList() {
                         : <MyMaterial.TextField value="Loading..."/>
                 }
             </MyMaterial.Grid>
-            <MyMaterial.Grid container direction="column" justify="center" alignItems="center" className={classes.height} item xs>
-                {username
-                    ? <Message username={username}/>
+            <MyMaterial.Grid container direction="row" justify="flex-start" alignItems="flex-start" className={classes.messageContainer} item xs>
+                {discussion
+                    ? <Message discussion={discussion}/>
                     : null
                 }
             </MyMaterial.Grid>

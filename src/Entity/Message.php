@@ -18,6 +18,11 @@ class Message
     private $id;
 
     /**
+     * @ORM\Column(type="text")
+     */
+    private $text;
+
+    /**
      * @ORM\ManyToOne(targetEntity=Discussion::class, inversedBy="message")
      */
     private $discussion;
@@ -25,6 +30,18 @@ class Message
     public function getId(): ?int
     {
         return $this->id;
+    }
+
+    public function getText(): ?string
+    {
+        return $this->text;
+    }
+
+    public function setText(string $text): self
+    {
+        $this->text = $text;
+
+        return $this;
     }
 
     public function getDiscussion(): ?Discussion

@@ -19,6 +19,17 @@ class MessageRepository extends ServiceEntityRepository
         parent::__construct($registry, Message::class);
     }
 
+    public function findMessage($id)
+    {
+        $query = $this->createQueryBuilder('m')
+            ->where('m.discussion = :d')
+            ->setParameter('d', $id)
+            ->getQuery()
+            ->getResult(\Doctrine\ORM\Query::HYDRATE_ARRAY);
+
+        return $query;
+    }
+
     // /**
     //  * @return Message[] Returns an array of Message objects
     //  */

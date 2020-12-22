@@ -40,13 +40,20 @@ class User implements UserInterface
     private $password;
 
     /**
+     * @ORM\ManyToMany(targetEntity=DiscussionList::class, mappedBy="user")
+     */
+    private $discussionLists;
+
+    /**
      * @ORM\ManyToMany(targetEntity=Discussion::class, mappedBy="user")
      */
     private $discussions;
 
+
     public function __construct()
     {
         $this->discussions = new ArrayCollection();
+        $this->discussionLists = new ArrayCollection();
     }
 
     public function getId(): ?int
@@ -118,6 +125,33 @@ class User implements UserInterface
     }
 
     /**
+     * @return Collection|DiscussionList[]
+     */
+    public function getDiscussionLists(): Collection
+    {
+        return $this->discussionLists;
+    }
+
+    public function addDiscussionList(DiscussionList $discussionList): self
+    {
+        if (!$this->discussionLists->contains($discussionList)) {
+            $this->discussionLists[] = $discussionList;
+            $discussionList->addUser($this);
+        }
+
+        return $this;
+    }
+
+    public function removeDiscussionList(DiscussionList $discussionList): self
+    {
+        if ($this->discussionLists->removeElement($discussionList)) {
+            $discussionList->removeUser($this);
+        }
+
+        return $this;
+    }
+
+    /**
      * @return Collection|Discussion[]
      */
     public function getDiscussions(): Collection
@@ -143,4 +177,5 @@ class User implements UserInterface
 
         return $this;
     }
+
 }

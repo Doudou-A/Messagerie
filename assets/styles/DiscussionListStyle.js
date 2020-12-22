@@ -6,7 +6,11 @@ const useStyles = makeStyles({
         background: '#3f51b5'
     },
     height: {
-       height: "100%"
+      height: "100%"
+    },
+    messageContainer: {
+        height: "100%",
+        padding: "0px !important"
     },
     username: {
         color: 'white',

@@ -1,0 +1,16 @@
+Index: assets/styles/app.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>html, #root{\n    height: 100%;\n}\n\nbody {\n    background-color: lightgray;\n    height: 100%;\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- assets/styles/app.css	(revision 40ba1343e222e86882c06b70a17476fa714ce68d)
++++ assets/styles/app.css	(date 1608488048028)
+@@ -5,4 +5,4 @@
+ body {
+     background-color: lightgray;
+     height: 100%;
+-}
+\ No newline at end of file
++}

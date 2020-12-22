@@ -20,19 +20,24 @@ class Discussion
     private $id;
 
     /**
-     * @ORM\ManyToMany(targetEntity=User::class, inversedBy="discussions")
+     * @ORM\ManyToOne(targetEntity=DiscussionList::class, inversedBy="discussion")
      */
-    private $user;
+    private $discussionList;
 
     /**
      * @ORM\OneToMany(targetEntity=Message::class, mappedBy="discussion")
      */
     private $message;
 
+    /**
+     * @ORM\ManyToMany(targetEntity=User::class, inversedBy="discussions")
+     */
+    private $user;
+
     public function __construct()
     {
-        $this->user = new ArrayCollection();
         $this->message = new ArrayCollection();
+        $this->user = new ArrayCollection();
     }
 
     public function getId(): ?int
@@ -40,26 +45,14 @@ class Discussion
         return $this->id;
     }
 
-    /**
-     * @return Collection|User[]
-     */
-    public function getUser(): Collection
+    public function getDiscussionList(): ?DiscussionList
     {
-        return $this->user;
+        return $this->discussionList;
     }
 
-    public function addUser(User $user): self
+    public function setDiscussionList(?DiscussionList $discussionList): self
     {
-        if (!$this->user->contains($user)) {
-            $this->user[] = $user;
-        }
-
-        return $this;
-    }
-
-    public function removeUser(User $user): self
-    {
-        $this->user->removeElement($user);
+        $this->discussionList = $discussionList;
 
         return $this;
     }
@@ -93,4 +86,29 @@ class Discussion
 
         return $this;
     }
+
+    /**
+     * @return Collection|User[]
+     */
+    public function getUser(): Collection
+    {
+        return $this->user;
+    }
+
+    public function addUser(User $user): self
+    {
+        if (!$this->user->contains($user)) {
+            $this->user[] = $user;
+        }
+
+        return $this;
+    }
+
+    public function removeUser(User $user): self
+    {
+        $this->user->removeElement($user);
+
+        return $this;
+    }
+
 }

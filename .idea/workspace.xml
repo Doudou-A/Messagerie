@@ -2,25 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7424269b-ac00-4d4c-9d2d-18904444ba89" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/controllers/DiscussionList.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/controllers/Message.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/styles/DiscussionListStyle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entity/DiscussionList.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Repository/DiscussionListRepository.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../GoogleAPIReact/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GoogleAPIReact/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../GoogleAPIReact/assets/post.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../GoogleAPIReact/assets/post.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/controllers/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/assets/controllers/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/controllers/Register.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/assets/controllers/Register.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/materialUI/myMaterial.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/materialUI/myMaterial.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/controllers/DiscussionList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/assets/controllers/DiscussionList.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/controllers/Message.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/assets/controllers/Message.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/DiscussionListStyle.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/DiscussionListStyle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/MessageStyle.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/MessageStyle.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/styles/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/DiscussionController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/DiscussionController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/MessageController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/MessageController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/RegistrationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/RegistrationController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/SecurityController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/SecurityController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Discussion.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Discussion.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Entity/Message.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Message.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Entity/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repository/UserRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/UserRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/DiscussionRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/DiscussionRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/MessageRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/MessageRepository.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +38,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_COMMON_BRANCH" value="PseudoPageRegistration" />
+    <option name="RECENT_COMMON_BRANCH" value="master" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
@@ -225,6 +224,9 @@
       <workItem from="1608319437103" duration="146000" />
       <workItem from="1608319760094" duration="19181000" />
       <workItem from="1608463978058" duration="4301000" />
+      <workItem from="1608551274721" duration="3770000" />
+      <workItem from="1608557228204" duration="503000" />
+      <workItem from="1608579707153" duration="15542000" />
     </task>
     <servers />
   </component>
@@ -248,15 +250,23 @@
       <screen x="1440" y="-65" width="1920" height="1055" />
     </state>
     <state x="2000" y="199" key="Vcs.Push.Dialog.v2/0.25.1440.806/1440.-65.1920.1055@1440.-65.1920.1055" timestamp="1607588969260" />
-    <state x="1540" y="35" width="1720" height="855" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1608319236049">
+    <state x="1540" y="35" width="1720" height="855" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1608636100394">
+      <screen x="1440" y="-65" width="1920" height="1055" />
+    </state>
+    <state x="1540" y="35" width="1720" height="855" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.25.1440.804/1440.-65.1920.1055@1440.-65.1920.1055" timestamp="1608636100394" />
+    <state x="1540" y="35" width="1720" height="855" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1608639089717">
       <screen x="1440" y="-65" width="1920" height="1055" />
     </state>
     <state x="1540" y="35" width="1720" height="855" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.25.1440.802/1440.-65.1920.1055@1440.-65.1920.1055" timestamp="1608319236049" />
+    <state x="1540" y="35" width="1720" height="855" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.25.1440.804/1440.-65.1920.1055@1440.-65.1920.1055" timestamp="1608639089717" />
     <state x="1540" y="35" width="1720" height="855" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.25.1440.806/1440.-65.1920.1055@1440.-65.1920.1055" timestamp="1607938067347" />
-    <state x="2001" y="142" width="873" height="642" key="find.popup" timestamp="1608216688114">
+    <state x="2001" y="142" width="874" height="647" key="find.popup" timestamp="1608637283451">
       <screen x="1440" y="-65" width="1920" height="1055" />
     </state>
     <state x="421" y="176" width="597" height="548" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1607630918651" />
+    <state x="421" y="182" width="655" height="490" key="find.popup/0.25.1440.799/1440.-65.1920.1055@0.25.1440.799" timestamp="1608552919381" />
+    <state x="2001" y="142" width="874" height="647" key="find.popup/0.25.1440.801/1440.-65.1920.1055@1440.-65.1920.1055" timestamp="1608630727340" />
+    <state x="2001" y="142" width="874" height="647" key="find.popup/0.25.1440.804/1440.-65.1920.1055@1440.-65.1920.1055" timestamp="1608637283451" />
     <state x="2001" y="142" width="873" height="642" key="find.popup/0.25.1440.806/1440.-65.1920.1055@1440.-65.1920.1055" timestamp="1608216688114" />
     <state x="421" y="183" width="597" height="490" key="find.popup/0.25.1440.806@0.25.1440.806" timestamp="1607543227123" />
     <state x="595" y="289" width="250" height="278" key="jetbrains.javascript.buildTools.run-task-popup" timestamp="1607542242121">

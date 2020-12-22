@@ -2,21 +2,21 @@
 
 namespace App\Repository;
 
-use App\Entity\Discussion;
+use App\Entity\DiscussionList;
 use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
 use Doctrine\Persistence\ManagerRegistry;
 
 /**
- * @method Discussion|null find($id, $lockMode = null, $lockVersion = null)
- * @method Discussion|null findOneBy(array $criteria, array $orderBy = null)
- * @method Discussion[]    findAll()
- * @method Discussion[]    findBy(array $criteria, array $orderBy = null, $limit = null, $offset = null)
+ * @method DiscussionList|null find($id, $lockMode = null, $lockVersion = null)
+ * @method DiscussionList|null findOneBy(array $criteria, array $orderBy = null)
+ * @method DiscussionList[]    findAll()
+ * @method DiscussionList[]    findBy(array $criteria, array $orderBy = null, $limit = null, $offset = null)
  */
-class DiscussionRepository extends ServiceEntityRepository
+class DiscussionListRepository extends ServiceEntityRepository
 {
     public function __construct(ManagerRegistry $registry)
     {
-        parent::__construct($registry, Discussion::class);
+        parent::__construct($registry, DiscussionList::class);
     }
 
     public function findDiscussionList($id)
@@ -35,7 +35,7 @@ class DiscussionRepository extends ServiceEntityRepository
     }
 
     // /**
-    //  * @return Discussion[] Returns an array of Discussion objects
+    //  * @return DiscussionList[] Returns an array of DiscussionList objects
     //  */
     /*
     public function findByExampleField($value)
@@ -52,7 +52,7 @@ class DiscussionRepository extends ServiceEntityRepository
     */
 
     /*
-    public function findOneBySomeField($value): ?Discussion
+    public function findOneBySomeField($value): ?DiscussionList
     {
         return $this->createQueryBuilder('d')
             ->andWhere('d.exampleField = :val')
